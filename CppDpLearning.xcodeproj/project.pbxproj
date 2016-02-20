@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4789FF1C760F9600C09445 /* SingletonPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4789FE1C760F9600C09445 /* SingletonPattern.cpp */; };
 		FA7D42AA1C64544400429426 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7D42A91C64544400429426 /* main.cpp */; };
 		FA7D42B51C64701700429426 /* ObserverPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7D42B41C64701700429426 /* ObserverPattern.cpp */; };
 		FA7D42B71C64704300429426 /* StrategyPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7D42B61C64704300429426 /* StrategyPattern.cpp */; };
 		FA7D42B91C6475B500429426 /* DecoratorPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7D42B81C6475B500429426 /* DecoratorPattern.cpp */; };
+		FA7D42BB1C64E50500429426 /* FactoryPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7D42BA1C64E50500429426 /* FactoryPattern.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA4789FE1C760F9600C09445 /* SingletonPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingletonPattern.cpp; sourceTree = "<group>"; };
 		FA7D42A61C64544400429426 /* CppDpLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppDpLearning; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7D42A91C64544400429426 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FA7D42B41C64701700429426 /* ObserverPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObserverPattern.cpp; sourceTree = "<group>"; };
 		FA7D42B61C64704300429426 /* StrategyPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrategyPattern.cpp; sourceTree = "<group>"; };
 		FA7D42B81C6475B500429426 /* DecoratorPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DecoratorPattern.cpp; sourceTree = "<group>"; };
+		FA7D42BA1C64E50500429426 /* FactoryPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FactoryPattern.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				FA7D42B61C64704300429426 /* StrategyPattern.cpp */,
 				FA7D42B41C64701700429426 /* ObserverPattern.cpp */,
 				FA7D42B81C6475B500429426 /* DecoratorPattern.cpp */,
+				FA7D42BA1C64E50500429426 /* FactoryPattern.cpp */,
+				FA4789FE1C760F9600C09445 /* SingletonPattern.cpp */,
 			);
 			path = CppDpLearning;
 			sourceTree = "<group>";
@@ -127,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7D42BB1C64E50500429426 /* FactoryPattern.cpp in Sources */,
 				FA7D42B51C64701700429426 /* ObserverPattern.cpp in Sources */,
+				FA4789FF1C760F9600C09445 /* SingletonPattern.cpp in Sources */,
 				FA7D42AA1C64544400429426 /* main.cpp in Sources */,
 				FA7D42B91C6475B500429426 /* DecoratorPattern.cpp in Sources */,
 				FA7D42B71C64704300429426 /* StrategyPattern.cpp in Sources */,
