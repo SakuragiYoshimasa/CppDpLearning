@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA4789FF1C760F9600C09445 /* SingletonPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4789FE1C760F9600C09445 /* SingletonPattern.cpp */; };
+		FA4A04441C7AE9490043B988 /* AdaptorPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4A04431C7AE9490043B988 /* AdaptorPattern.cpp */; };
 		FA7D23D01C78AF6F009A1BF7 /* CommandPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7D23CE1C78AF6F009A1BF7 /* CommandPattern.cpp */; };
 		FA7D23D31C78B5CA009A1BF7 /* NullObjectPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7D23D11C78B5CA009A1BF7 /* NullObjectPattern.cpp */; };
 		FA7D42AA1C64544400429426 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7D42A91C64544400429426 /* main.cpp */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		FA4789FE1C760F9600C09445 /* SingletonPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingletonPattern.cpp; sourceTree = "<group>"; };
+		FA4A04431C7AE9490043B988 /* AdaptorPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AdaptorPattern.cpp; sourceTree = "<group>"; };
 		FA7D23CE1C78AF6F009A1BF7 /* CommandPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandPattern.cpp; sourceTree = "<group>"; };
 		FA7D23D11C78B5CA009A1BF7 /* NullObjectPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NullObjectPattern.cpp; sourceTree = "<group>"; };
 		FA7D42A61C64544400429426 /* CppDpLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppDpLearning; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 				FA4789FE1C760F9600C09445 /* SingletonPattern.cpp */,
 				FA7D23CE1C78AF6F009A1BF7 /* CommandPattern.cpp */,
 				FA7D23D11C78B5CA009A1BF7 /* NullObjectPattern.cpp */,
+				FA4A04431C7AE9490043B988 /* AdaptorPattern.cpp */,
 			);
 			path = CppDpLearning;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				FA7D42AA1C64544400429426 /* main.cpp in Sources */,
 				FA7D23D01C78AF6F009A1BF7 /* CommandPattern.cpp in Sources */,
 				FA7D42B91C6475B500429426 /* DecoratorPattern.cpp in Sources */,
+				FA4A04441C7AE9490043B988 /* AdaptorPattern.cpp in Sources */,
 				FA7D23D31C78B5CA009A1BF7 /* NullObjectPattern.cpp in Sources */,
 				FA7D42B71C64704300429426 /* StrategyPattern.cpp in Sources */,
 			);
